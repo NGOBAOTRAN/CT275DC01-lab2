@@ -28,7 +28,16 @@ function get_database_connection(): ?PDO
         return $pdo;
     }
 
-    // Tạo đối tượng PDO để kết nối đến database
+    try {
+        $pdo = new PDO(
+            'pgsql:host=127.0.0.1;port=5432;dbname=ct275_lab2',
+            'postgres',
+            'admin'
+        );
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    } catch (PDOException $e) {
+        $pdo = null;
+    }
 
     return $pdo;
 }
