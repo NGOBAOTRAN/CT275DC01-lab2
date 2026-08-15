@@ -2,11 +2,11 @@
 
 Học kỳ 3, Năm học: 2025-2026
 
-**Họ tên**: ...
+**Họ tên**: Ngô Bảo Trân
 
-**MSSV**: ...
+**MSSV**:DC22V7N533
 
-**Lớp HP**: ...
+**Lớp HP**: CT275DC01
 
 
 
